@@ -1,0 +1,43 @@
+# ── 打包/构建产物 ──
+*.rar
+*.exe
+*.msi
+dist/
+build/
+*.spec
+*.iss
+
+# ── 备份/临时文件 ──
+*.bak
+*~*
+main_extract.py
+rar_list.txt
+rar_full_list.txt
+*.log
+
+# ── 临时/探针目录（_ 前缀）──
+_probe/
+_probe_*/
+_extract/
+_extract*/
+_src_restore/
+_pyc_extract/
+_work/
+src_work/
+src_work*/
+source/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── 其他项目 ──
+GG-DSH/
+yolov5/_git_backup/
+
+# ── 本地环境 ──
+.env
+.credentials.yaml
