@@ -1,0 +1,18 @@
+# 基础依赖
+numpy
+Pillow
+opencv-python
+psutil
+pywin32
+PyYAML
+
+# YOLO 推理/训练（ultralytics 支持 yolov8 / yolo11）
+ultralytics
+
+# CUDA 版 PyTorch（GPU 推理/训练，请按显卡 CUDA 版本安装对应 wheel）
+# 示例（RTX 50 系列 + cu128）：
+#   pip install torch==2.11.0+cu128 torchvision==0.26.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+# CPU 版可注释掉上面两行后执行： pip install torch torchvision
+
+# 屏幕实时检测（DXGI 抓屏加速，可选；未安装时自动回退 GDI 截屏）
+dxcam
